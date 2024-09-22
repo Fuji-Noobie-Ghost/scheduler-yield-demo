@@ -7,7 +7,7 @@ if (!isFeatureAvailable()) {
   useNewAPI.setAttribute('disabled', true)
   console.log(useNewAPI.nextElementSibling)
   useNewAPI.nextElementSibling.classList.add('text-disabled')
-  alert('It seems that your browser do not support scheduler.yield')
+  alert('It seems that your browser does not support scheduler.yield')
 }
 
 const DURATION = 1000

@@ -34,7 +34,7 @@ blockBtn.addEventListener('click', async () => {
     blockMainThread()
 
     // Proof of the prioritization
-    logger.log('Registrer setTimeout callback to proove prioritization', 'lightblue')
+    logger.log('Register a setTimeout callback to demonstrate prioritized execution', 'lightblue')
     setTimeout(() => logger.log('setTimeout callback executed', 'yellow'), 0)
 
     await yieldToMain(useNewAPI.checked)

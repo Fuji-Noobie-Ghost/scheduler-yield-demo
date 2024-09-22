@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Yielding Demo</title>
+    <link rel="stylesheet" href="./src/css/style.css">
+  </head>
+  <body>
+    <main>
+      <button id="block">Block the Main Thread for 5s</button>
+      <button id="hello">Say Hello</button>
+      <div>
+        <input type="checkbox" id="useNewAPI">
+        <label for="useNewAPI">Use scheduler.yield for yielding</label>
+      </div>
+
+      <h1>Logs :</h1>
+      <button id="clear">Clear logs</button>
+      <ul id="exec-view"></ul>
+    </main>
+    <script src="./src/js/main.js" type="module"></script>
+  </body>
+</html>

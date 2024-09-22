@@ -8,6 +8,8 @@ if (!isFeatureAvailable()) {
   console.log(useNewAPI.nextElementSibling)
   useNewAPI.nextElementSibling.classList.add('text-disabled')
   alert('It seems that your browser does not support scheduler.yield')
+} else {
+  useNewAPI.checked = true
 }
 
 const DURATION = 1000

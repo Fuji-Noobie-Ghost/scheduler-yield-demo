@@ -6,6 +6,11 @@ await scheduler.yield()
 
 Try out the [demo](https://scheduler-yield-demo.vercel.app/).
 
+## How it works
+
+1. Press the "Block the Main Thread for 5s" button
+2. Continuously press "Say Hello" button
+
 ## Running the demo locally
 
 1. Clone this repository
